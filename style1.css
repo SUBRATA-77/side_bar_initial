@@ -109,3 +109,16 @@
           font-size: 25px;
           scale: (1.5);
 }
+.copyright {
+      position: absolute; 
+      padding-left: 40%;
+      margin: auto;
+      bottom: 2%;
+      background: var(--main-color);
+      text-align: center;
+      color: pink;
+  }
+  #check:checked ~ .copyright{
+      opacity: 0;
+}
+  
